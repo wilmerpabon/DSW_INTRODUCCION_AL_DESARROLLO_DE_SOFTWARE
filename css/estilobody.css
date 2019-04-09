@@ -7,8 +7,8 @@ body{
 }
 @font-face {
     font-family: 'angsana_newregular';
-    src: url('fonts/angsa-webfont.woff2') format('woff2'),
-         url('fonts/angsa-webfont.woff') format('woff');
+    src: url('../fonts/angsa-webfont.woff2') format('woff2'),
+         url('../fonts/angsa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,11 +16,13 @@ nav {margin: auto;
 	width: 600px;
 	font-family: "angsana_newregular",normal;
 	text-align: center;
-	height: 220px;
+	height: 240px;
+	font-size: 22px;
 	}
 header{font-family: "angsana_newregular",normal;
 color: #fff;
-font-size: 16px;
+font-size: 20px;
+vertical-align: middle;
 border-radius: 0.5em
 }
 footer{
