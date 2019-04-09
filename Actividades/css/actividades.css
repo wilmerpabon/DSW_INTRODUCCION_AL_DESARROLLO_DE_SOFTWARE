@@ -6,7 +6,7 @@
 }
 .contenedor{
 
-	width:80%;
+	width:85%;
 	margin:auto;
 	overflow:hiden;
 }
@@ -16,10 +16,10 @@ ul{
 }
 header{
 	background: url('../imagenes/cabecera.jpg') no-repeat ;
-	padding-top:30px;
-	min-height: 90px;
-	width: 80%;
-	margin-left:150px;
+	padding-top:40px;
+	min-height: 80px;
+	width: 85%;
+	margin-left:100px;
 
 }
 header #marca h1{
@@ -56,4 +56,8 @@ footer{
 footer p{
 	text-align: center;
 	color:#fff;
+}
+a:hover
+{
+  color: red;
 }
