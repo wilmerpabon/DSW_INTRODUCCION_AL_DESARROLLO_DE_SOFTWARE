@@ -6,9 +6,39 @@
 	<meta description="Sitio web relacionado con la Introducción al Desarrollo de Sofware creado como OVI">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/estilobody.css">
+	<link rel="stylesheet" type="text/css" href="css/estilobanner.css">
 	<script type="text/javascript" src="js/modernizr.js"></script>
 	<script type="text/javascript" src="ja/prefixfree.js"></script>
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<style type="text/css">
+		ul, ol {
+			list-style: none;
+		}
+		.navegacion li a {
+			background-color: #000;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 15px;
+			display: block;
+		}
+		.navegacion li a:hover {
+			background-color: #434343;
+		}
+		.navegacion > li{
+			float: left;
+		}
+		.navegacion li ul{
+			display: none;
+			position: relative;
+			min-width: 140px;
+			top: 0px;
+		}
+		.navegacion li:hover > ul{
+			display: block;
+		}
+
+		}
+	</style>
 </head>
 <body>
 	<div id="wrapper">
@@ -21,4 +51,6 @@
 	</div>
 
 </body>
+	</footer>
+	</body>
 </html>
