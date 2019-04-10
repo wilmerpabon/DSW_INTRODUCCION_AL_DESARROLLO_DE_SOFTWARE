@@ -29,7 +29,7 @@ footer{
 	font-family: "angsana_newregular", normal;
 	background: #F0B429;
 	text-align: center;
-	font-size: 14px;
+	font-size: 25px;
 	color: #fff;
 }
 section#contenedor{
@@ -39,7 +39,7 @@ section#contenedor{
 	text-align: center;
 	font-size: 20px;
 }
-section#principal, aside{
+section#principal {
 	background: #96F1F3;
 	border-radius: 8px;
 	display: inline-block;
@@ -57,4 +57,28 @@ article	{
 }
 aside {
 	width: 30%
+	background:#ffffff;
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: 4px auto;
+	vertical-align: top;
+	min-width: 250px;
 }
+section#contenedor2{
+	margin: 10px auto;
+	max-width: 1000px;
+	padding: 0;
+	text-align: center;
+	font-size: 20px;
+}
+section#secundario {
+	background: #96F1F3;
+	border-radius: 8px;
+	display: inline-block;
+	margin-top: 4px auto;
+	max-width: 960px;
+	min-width: 200px;
+	vertical-align: top;
+	width: 69%;
+}
+
