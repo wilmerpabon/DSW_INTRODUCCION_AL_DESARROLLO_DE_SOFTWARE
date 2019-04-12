@@ -1,0 +1,49 @@
+.slider {
+	width: 110%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+    width: 400%;
+    padding-left: 100px;
+	
+	animation: cambio 60s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+#correo{
+    top: 5px;
+    width: 15px;
+    max-width: 60px;
+}
+#skype{
+    width: 15px;
+    max-width: 60px;
+}
+
+.slider img {
+	width: 60%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	20% {margin-left: -80%;}
+	40% {margin-left: -80%;}
+	
+	40% {margin-left: -160%;}
+	60% {margin-left: -160%;}
+	
+	60% {margin-left: -240%;}
+    80% {margin-left: -240%;}
+
+    80% {margin-left: -320%;}
+	100% {margin-left: -320%;}
+}
