@@ -50,6 +50,9 @@ section#principal {
 	width: 69%;
 }
 article	{
+	font-family: "angsana_newregular", normal;
+	text-align: justify;
+	font-size: 25px;
 	background: #DBF9F9;
 	border-radius: 8px;
 	min-width: 140px;
