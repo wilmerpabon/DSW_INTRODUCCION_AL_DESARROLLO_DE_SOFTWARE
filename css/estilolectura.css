@@ -1,0 +1,119 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'angsana_newregular';
+    src: url('../fonts/angsa-webfont.woff2') format('woff2'),
+         url('../fonts/angsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'angsana_newregular';
+}
+
+body{
+	/*background: url(../img/fondositioweb.jpg) no-repeat fixed center center;
+	background-size: cover;
+	background: #212121;*/
+	background: #FCFAFA;
+	color: #FFF;
+	font-family: 'angsana_newregular', Helvetica, Verdana;
+	font-size: 2em;
+}
+h1{
+	color: blue;
+	font-size: 50px;
+	margin: 0.25em auto;
+	text-align: center;
+	/*text-shadow: 5px 5px 10px rgba(255,255,255,0.5);*/
+}
+h2{
+	color: white;
+	font-size: 40px;
+	margin: 5px auto;
+	text-align: center;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 15px;
+	margin: 5px auto;
+	padding: 10px;
+	text-align: left;
+}
+header, nav, footer{
+	background: #1E6381;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	min-height: 45px;
+	padding: 0.25em;
+	text-align: center;
+}
+section#contenedor{
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0;
+	/*background: #FFFFFF;*/
+	text-align: center;
+}
+section#principal{
+	text-align: center;
+	background-color: #1E6381;
+	border-radius: 0.5em;
+	/*display: inline-block;*/
+	margin: 0.2em auto;
+	max-width: 960px;
+	min-height: 200px;
+	vertical-align: top;
+	/*width: 65%;*/
+}
+article{
+	background: #011E30;
+	border-radius: 0.5em;
+	min-height: 140px;
+	padding: 0.25em;
+}
+/*aside{
+	width: 30%;
+}*/
+ul, ol {
+            list-style: none;
+        }
+
+        .navegacion li a {
+            background-color: #8181F7;
+            font-family: 'angsana_newregular';
+            font-style: italic;
+            border-radius: 0,25em;
+            color: #fff;
+            font-size: 25px;
+            text-decoration: none;
+            padding: 8px 12px;
+            display: block;
+        }
+
+        .navegacion li a:hover {
+            background-color: #434343;
+        }
+
+        .navegacion>li {
+            float: left;
+        }
+
+        .navegacion li ul {
+            display: none;
+            position: absolute;
+            /*position: relative;*/
+            min-width: 120px;
+            top: 0px;
+        }
+
+        .navegacion li:hover>ul {
+            display: block;
+        }
