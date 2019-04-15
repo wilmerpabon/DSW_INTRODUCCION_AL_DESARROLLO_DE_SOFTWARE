@@ -28,10 +28,6 @@ border-radius: 0.5em
 footer{
 	/*font-family: "angsana_newregular", normal;
 	background: #F0B429;
-	/*text-align: center;
-	font-size: 25px;
-	color: #fff;*/
-	background: #202020;
 }
 section#contenedor{
 	margin: 10px auto;
@@ -51,6 +47,9 @@ section#principal {
 	width: 69%;
 }
 article	{
+	font-family: "angsana_newregular", normal;
+	text-align: justify;
+	font-size: 25px;
 	background: #DBF9F9;
 	border-radius: 8px;
 	min-width: 140px;
