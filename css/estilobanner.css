@@ -1,7 +1,7 @@
-*{
+/* *{
 	margin: 0px;
 	padding: 0px;
-}
+}*/
 @font-face {
     font-family: 'angsana_newregular';
     src: url('../fonts/angsa-webfont.woff2') format('woff2'),
@@ -26,5 +26,5 @@ img#img_banner{
 }
 h1#titulobanner	{color: #fff;
 	font-family: angsana_newregular, normal;
-font-size: 40px;
+	font-size: 40px;
 }

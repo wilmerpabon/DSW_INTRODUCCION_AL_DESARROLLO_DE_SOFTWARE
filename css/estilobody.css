@@ -26,11 +26,12 @@ vertical-align: middle;
 border-radius: 0.5em
 }
 footer{
-	font-family: "angsana_newregular", normal;
+	/*font-family: "angsana_newregular", normal;
 	background: #F0B429;
-	text-align: center;
+	/*text-align: center;
 	font-size: 25px;
-	color: #fff;
+	color: #fff;*/
+	background: #202020;
 }
 section#contenedor{
 	margin: 10px auto;

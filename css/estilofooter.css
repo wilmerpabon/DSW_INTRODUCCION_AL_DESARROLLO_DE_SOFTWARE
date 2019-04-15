@@ -1,11 +1,13 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	/* Establece el máximo valor del elemento */
 	box-sizing: border-box;
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
 }
+
 footer{
-	/*width: 100%*/
+	width: 100%
 	background: #202020;
 	color: white;
 }
@@ -13,7 +15,7 @@ footer{
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
-	padding: 40px;
+	padding: 30px;
 }
 
 .contenedor_body{
@@ -26,21 +28,21 @@ footer{
 }
 
 .columna1 h1{
-	font-size: 22px;
+	font-size: 40px;
 }
 
 .columna1 p{
-	font-size: 14px;
+	font-size: 25px;
 	color: #C7C7C7;
 	margin-top: 20px;
 }
 .columna2{
 	max-width: 400px;
-	font-size: 14px;
+	font-size: 25px;
 }
 
 .columna2 h1{
-	font-size: 22px;
+	font-size: 40px;
 }
 
 .fila1{
@@ -54,18 +56,18 @@ footer{
 }
 
 .fila1 label{
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-left: 20px;
 	color: #C7C7C7;
 }
 
 .columna3{
 	max-width: 400px;
-	font-size: 14px;
+	font-size: 25px;
 }
 
 .columna3 h1{
-	font-size: 22px;
+	font-size: 40px;
 }
 
 .fila2{
@@ -81,15 +83,20 @@ footer{
 .fila2 label{
 	margin-top: 10px;
 	margin-left: 20px;
-	max-width: 140px;
+	max-width: 250px;
 }
 
 .contenedor_footer{
 	width: 100%;
 	background-color: #101010;
+	font-size: 25px;
+}
+.footer{
+	max-width: 1200px;
+	margin: auto;
 	display: flex;
-	justify-content: space-between;;
-	padding-left: 20px;
+	justify-content: space-between;
+	padding: 20px;
 }
 
 .copy_right{
@@ -103,6 +110,10 @@ footer{
 }
 
 .informacion{
+	text-decoration: none;
+	color: #C7C7C7;
+}
+.informacion a{
 	text-decoration: none;
 	color: #C7C7C7;
 }
