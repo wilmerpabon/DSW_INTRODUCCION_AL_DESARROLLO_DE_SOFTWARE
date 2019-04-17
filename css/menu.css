@@ -1,0 +1,61 @@
+header .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;	
+}
+
+.logoUNAD img{
+	max-width: 250px;
+	max-height: 200px;
+}
+
+.navegacion{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*padding: 10px;*/
+	background: #333;
+	font-size: 18px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	/*position: relative;*/
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 25px;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: rgba(255,255,255,0.5);
+	transition: all 0.3s
+}
+
+.sub-menu{
+	position: absolute;
+	background: #333;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.sub-menu li a{
+	display: block;
+	padding: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.menu li:hover .sub-menu{
+	visibility: visible;
+	opacity: 1;
+}
