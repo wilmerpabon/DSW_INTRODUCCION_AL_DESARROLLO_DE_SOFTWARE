@@ -1,16 +1,16 @@
 .slider {
-	width: 110%;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 }
 
 .slider ul {
 	display: flex;
-	padding: 0;
-    width: 400%;
+	padding: 10;
+    width: 300%;
     padding-left: 100px;
 	
-	animation: cambio 60s infinite alternate linear;
+	animation: cambio 70s infinite alternate linear;
 }
 
 .slider li {
@@ -18,13 +18,12 @@
 	list-style: none;
 }
 #correo{
-    top: 5px;
-    width: 15px;
-    max-width: 60px;
+    width: 20px;
+    max-width: 20px;
 }
 #skype{
-    width: 15px;
-    max-width: 60px;
+    width: 20px;
+    max-width: 20px;
 }
 
 .slider img {
