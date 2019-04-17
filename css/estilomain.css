@@ -35,12 +35,61 @@ main{
 	margin-right: 15px;	
 }
 
+#terciario{
+	padding-top: 10px;
+	/*background: red;*/
+	border-top: 3px solid #333;
+}
+
+#terciario .contenedor{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;	
+}
+
+#terciario h2, h3{
+	font-size: 28px;
+	text-align: center;
+}
+
+#terciario article{
+	margin: 30px;
+	max-width: 600px;
+}
+
+#terciario article p{
+	/*float: left;*/
+	text-align: justify;
+	margin: 15px;
+	/*background: red;*/
+}
+
+#terciario img{
+	float: right;
+	max-width: 200px;
+	max-height: 200px;
+	margin-left: 15px;	
+}
+
 #centro{	
 	width: 980px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: nowrap;
 	/*background: green;*/	
+}
+
+#secundario{
+	width: 100%;
+	/*display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;*/
+	margin: 10px;
+	text-align: center;
+}
+
+#secundario h2{
+	padding: 10px;
 }
 
 #objetivosOVI{
