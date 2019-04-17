@@ -21,8 +21,14 @@ body{
 header{
 	width: 100%;
 	height: 95px;
-	background: #185E8F;
-	color: #FFF;
+	background: #FFF;
+	margin-top: 5px;
+	color: #333;
+	padding-bottom: 3px;
+	/*background: red;*/
+	border: 3px solid #333;
+	border-radius: 0.5em;
+	/*border-bottom: 3px double blue;*/
 	/*position: fixed;
 	top: 0;
 	left: 0;*/

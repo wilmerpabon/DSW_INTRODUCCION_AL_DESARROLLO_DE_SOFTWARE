@@ -17,6 +17,7 @@ header .contenedor{
 	/*padding: 10px;*/
 	background: #333;
 	font-size: 18px;
+	border-radius: 0.5em;
 }
 
 .navegacion ul{
@@ -30,7 +31,7 @@ header .contenedor{
 
 .menu > li > a{
 	display: block;
-	padding: 25px;
+	padding: 20px;
 	color: rgba(255,255,255,1);
 	text-decoration: none;
 }
