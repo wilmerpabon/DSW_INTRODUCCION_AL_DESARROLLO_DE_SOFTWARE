@@ -1,63 +1,43 @@
-﻿body{
-	font-family: : 15px Arial, Helvetica, sans-serif;
-	padding: 0;
-	margin: 0;
-	background-color: #f4f4f4;
-}
-.contenedor{
+﻿#cajas .contenedor{
 
-	width:85%;
-	margin:auto;
-	overflow:hidden;
-}
-ul{
-	margin:0;
-	padding:0;
-}
-header{
-	background: url('../img/cabecera.jpg') no-repeat ;
-	padding-top:40px;
-	min-height: 80px;
 	width: 85%;
-	margin-left:100px;
+	margin: auto;
+	overflow: hidden;
+}
 
+#cajas h2{
+	font-size: 28px;
+	text-align: center;
 }
-header #marca h1{
-	margin:0;
-	padding-left:550px;
-	color:#fff
-}
+
 #bienvenido{
-	margin-top:5px;
-	width:100%;
-	height:600px;
-	background-color:orange;
+	margin-top: 5px;
+	width: 100%;
+	height: 630px;
+	background-color: #808080;
+	border-radius: 0.5em;
 }
+
 #bienvenido h2{
-    line-height:5px;
-	padding-top:10px;
-	margin-left:40px;
+    line-height:10px;
+	padding-top:30px;
+	/*margin-left:40px;*/
+	text-align: center;
+	height: 30px;
+	color: #FFF; 
 }
+
 #bienvenido div{
 	line-height:5px;
+	width: 82%;
+	margin-top: 35px;
 	margin-left:100px;
+	margin-bottom: -10px;
+	/*background: red;*/
 }
 #bienvenido iframe{
 	line-height:5px;
+	width: 82%;
 	margin-left:100px;
 }
 
-footer{
-	height:50px;
-	background-color:orange;
-	width: 80%;
-	margin-left:150px;
-}
-footer p{
-	text-align: center;
-	color:#fff;
-}
-a:hover
-{
-  color: red;
-}
