@@ -1,9 +1,13 @@
 #contenedor_lectura{
 	background: #FCFAFA;
-	margin: 0.5em auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 960px;
-	padding: 0;
+	padding: 5px;
 	text-align: center;
+	/*background: red;*/
+	height: 100%;
 }
 
 #contenedor_lectura h1{
@@ -24,17 +28,20 @@
 }
 
 #principal h2{
-	font-family: 'Open Sans', sans-serif;
-	color: white;
+	color: #FFF;
 	font-size: 15px;
-	margin: 5px auto;
 	padding: 10px;
 	text-align: left;
+	/*El siguiente comando indica grosor de la letra*/
+	font-weight: lighter;
+	/*el siguiente comando indica interlineado*/
+	line-height: 1.5;
 }
 
 article{
 	background: rgba(255,255,255,0.3);
 	border-radius: 1px;
-	min-height: 140px;
+	min-height: 200px;
 	padding: 0.25em;
+	margin: 10px;
 }
